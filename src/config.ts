@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "StoneLeaves妙妙屋",
+	title: "StoneLeaves主页",
 	subtitle: "神秘男子的妙妙屋，他好像什么都会一点...",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
