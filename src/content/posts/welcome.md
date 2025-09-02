@@ -5,6 +5,7 @@ tags: [Welcome]
 category: Welcome
 image: ""
 draft: false
+pinned: true
 ---
 
 在这里我们感谢您的到来与支持

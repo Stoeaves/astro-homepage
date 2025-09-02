@@ -1,95 +1,94 @@
 ---
-title: Markdown Extended Features
-published: 2024-05-01
-updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
+title: Markdown特色
+published: 2025-09-01
+updated: 2025-09-02
+description: '...'
 image: ''
-tags: [Demo, Example, Markdown, Fuwari]
-category: 'Examples'
-draft: false 
+tags: [示例]
+category: '示例'
+draft: true
+pinned: false
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## Github仓库卡片
 
-::github{repo="Fabrizz/MMM-OnSpotify"}
+::github{repo="Stoeaves/StpCloud"}
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+创建一个仓库卡片请用： `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
-::github{repo="saicaca/fuwari"}
+::github{repo="Stoeaves/StpCloud"}
 ```
 
-## Admonitions
+## 提示
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+支持提示的类型有: `note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
+Something...
 :::
 
 :::tip
-Optional information to help a user be more successful.
+Something...
 :::
 
 :::important
-Crucial information necessary for users to succeed.
+Something...
 :::
 
 :::warning
-Critical content demanding immediate user attention due to potential risks.
+Something...
 :::
 
 :::caution
-Negative potential consequences of an action.
+Something...
 :::
 
-### Basic Syntax
+### 代码示例：
 
 ```markdown
 :::note
-Highlights information that users should take into account, even when skimming.
+Something...
 :::
 
 :::tip
-Optional information to help a user be more successful.
+Something...
 :::
 ```
 
-### Custom Titles
+### 自定义标题
 
-The title of the admonition can be customized.
+提示标题可以自定义！
 
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+Something...
 :::
 
 ```markdown
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+Something...
 :::
 ```
 
-### GitHub Syntax
+### 另一种写法
 
 > [!TIP]
-> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
+> Something...
 
 ```
 > [!NOTE]
-> The GitHub syntax is also supported.
+> Something...
 
 > [!TIP]
-> The GitHub syntax is also supported.
+> Something...
 ```
 
-### Spoiler
+### 文字遮挡器
 
-You can add spoilers to your text. The text also supports **Markdown** syntax.
+你可以为你的文字添加一个遮挡器，使其看起来像是被隐藏的。
 
-The content :spoiler[is hidden **ayyy**]!
+此内容:spoiler[已被**隐藏**]
 
 ```markdown
-The content :spoiler[is hidden **ayyy**]!
-
+此内容:spoiler[已被**隐藏**]
 ```

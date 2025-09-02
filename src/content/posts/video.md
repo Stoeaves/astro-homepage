@@ -1,18 +1,21 @@
 ---
-title: Include Video in the Posts
-published: 2023-08-01
-description: This post demonstrates how to include embedded video in a blog post.
-tags: [Example, Video]
-category: Examples
-draft: false
+title: 引用视频
+published: 2025-09-01
+updated: 2025-09-02
+description: '...'
+image: ''
+tags: [示例]
+category: '示例'
+draft: true
+pinned: false
 ---
 
-Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
+只需从YouTube或其他平台复制嵌入代码，并将其粘贴到markdown文件中。
 
 ```yaml
 ---
-title: Include Video in the Post
-published: 2023-10-19
+title: 在文章中引用视频
+published: xxxx-xx-xx
 // ...
 ---
 
@@ -23,6 +26,14 @@ published: 2023-10-19
 
 <iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Bilibili
+```html
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
+## 哔哩哔哩
 
 <iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+```html
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+```

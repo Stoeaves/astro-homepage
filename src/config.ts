@@ -32,10 +32,10 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// Leave this array empty to use the default favicon
 		{
-		  src: '/src/assets/images/avatar.jpeg',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		}
+			src: "/src/assets/images/avatar.jpeg", // Path of the favicon, relative to the /public directory
+			//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -44,11 +44,12 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/Stoeaves", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+		LinkPreset.Api,
+		// {
+		// 	name: "GitHub",
+		// 	url: "https://github.com/Stoeaves", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
 	],
 };
 
