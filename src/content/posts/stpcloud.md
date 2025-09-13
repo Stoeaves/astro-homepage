@@ -16,15 +16,11 @@ StoneLeaves 私人云盘基于原创项目 StpCloud 搭建~
 **在线预览：[StpCloud](https://file.seave.top)**
 
 :::tip[目录]
-> [准备工作](#准备工作)
-
-> [部署](#部署)
-
-> [剩余工作](#剩余工作)
-
-> [Worker 环境变量](#worker-环境变量)
-
-> [Github Token 说明](#github-token-说明)
+> - [准备工作](#准备工作)
+> - [部署](#部署)
+> - [剩余工作](#剩余工作)
+> - [Worker 环境变量](#worker-环境变量)
+> - [Github Token 说明](#github-token-说明)
 :::
 
 #### 准备工作
